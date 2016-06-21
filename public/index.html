@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Socket.IO Chat Example</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div style="float:left;width:20%;border-right:1px solid black;height:300px;padding:10px;overflow:scroll-y;">
+	<b>ROOMS</b>
+	<div id="rooms"></div>
+</div>
+  <ul class="pages" style="width:80%;float:right;">
+      <li class="login page">
+      <div class="form">
+        <h3 class="title">Please select room?</h3>
+        <select name="" id="sel_room">
+            <option value=''>Select room</option>            
+        </select>
+        <select name="username" id="username">
+            <option value="">Select User Name</option>
+        </select>
+        <button id="joinme">
+        join chat
+        </button>
+      </div>
+    </li>
+    <li class="chat page">
+      <div class="chatArea">
+        <ul class="messages"></ul>
+      </div>
+      <input class="inputMessage" id="data"  placeholder="Type here..." />
+        <input type="button" id="datasend" value="send" />
+      
+    </li>
+    
+  </ul>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/client.js"></script>
+</body>
+</html>

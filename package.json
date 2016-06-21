@@ -1,0 +1,17 @@
+{
+  "name": "cars24-visualisation-chat",
+  "version": "1.0.0",
+  "description": "cars24 visualisation conversation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pradeep kumar baranwal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mysql": "github:mysqljs/mysql",
+    "socket.io": "^1.4.6"
+  }
+}
