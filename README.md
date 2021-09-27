@@ -1,4 +1,4 @@
-# node-chat-in-room
+# node-chat-room
 
 install dependency by running below command.
 
