@@ -6,7 +6,7 @@
  * exports.update = function(config) {
         config.port = 1337;
     };
- * @author : pradeep kumar baranwal <pradeep.baranwal@cars24.com>
+ * @author : pradeep kumar baranwal <vns.pradeep07@gmail.com>
  * 
  */
 
